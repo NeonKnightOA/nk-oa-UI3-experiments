@@ -1,0 +1,33 @@
+// menu defs
+// 
+{	
+	loadMenu { "ui/defs/error.menu" }				// (Error screen)
+	loadMenu { "ui/defs/main.menu" }				// Main menu
+	loadMenu { "ui/defs/sp/tutorials.menu" }			// Single Player => Tutorials
+ 	loadMenu { "ui/defs/sp/ladder.menu" }			// Single Player => Ladder
+ 	loadMenu { "ui/defs/sp/botmatch.menu" }		// Single Player => Botmatch
+ 	loadMenu { "ui/defs/sp/arcade.menu" }			// Single Player => Arcade Mode
+ 	loadMenu { "ui/defs/sp/zonedom.menu" }		// Single Player => Zone Domination
+ 	loadMenu { "ui/defs/sp/speedrun.menu" }		// Single Player => Speedrun
+ 	loadMenu { "ui/defs/mp/createserver.menu" }		// Multiplayer => Create server
+ 	loadMenu { "ui/defs/mp/joinserver.menu" }		// Multiplayer => Join server
+	loadMenu { "ui/defs/mp/password.menu" }		// Multiplayer => Join server => Introduce password
+	loadMenu { "ui/defs/options/options.menu" }		// Options
+ 	loadMenu { "ui/defs/options/player.menu" }		// Options => Player settings
+	loadMenu { "ui/defs/options/controls.menu" }		// Options => Controls
+ 	loadMenu { "ui/defs/options/setup.menu" }		// Options => Game Options
+ 	loadMenu { "ui/defs/extras/mods.menu" }		// Extras => Mods
+	loadMenu { "ui/defs/extras/demos.menu" }		// Extras => Demos
+	loadMenu { "ui/defs/extras/cinematics.menu" }	// Extras => Cinematics
+	loadMenu { "ui/defs/gallery/characters.menu" }	// Gallery => Characters
+	loadMenu { "ui/defs/gallery/locations.menu" }		// Gallery => Locations
+	loadMenu { "ui/defs/gallery/conceptart.menu" }	// Gallery => Concept Art
+	loadMenu { "ui/defs/credits.menu" }			// Credits
+	loadMenu { "ui/defs/quit.menu" }				// Quit
+	loadMenu { "ui/defs/quitcredit.menu" }			// (Quit screen)
+ 	loadMenu { "ui/defs/fight.menu" }				// Confirm (SP/MP)
+	loadMenu { "ui/defs/endofgame.menu" }		// Post-match screen
+
+	loadMenu { "ui/system.menu" }		// ???
+	loadMenu { "ui/resetscore.menu" }		// ???
+}

@@ -1,0 +1,126 @@
+/*
+===========================================================================
+Copyright (C) 2008 Open Arena Team
+
+This file is part of Open Arena.
+
+Open Arena is free software; you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of the License,
+or (at your option) any later version.
+
+Open Arena is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Open Arena; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+===========================================================================
+*/
+
+gametypes {
+  { "Deathmatch" 0 }
+  { "Tournament" 1 }
+  { "Team Deathmatch" 3 } //any and all maps marked for ffa will be team
+  { "Capture The Flag" 4 }
+  { "One Flag CTF" 5 }
+  { "Overload" 6 }
+  { "Harvester" 7 }
+  { "Elimination" 8 }
+  { "CTF Elimination" 9 }
+  { "Last Man Standing" 10 }
+  { "Double Domination" 11 }
+  { "Domination" 12 }
+  { "Possession" 13 }
+}
+
+joingametypes {
+  { "Don't Care" -1 }
+  { "Deathmatch" 0 }
+  { "Tournament" 1 }
+  { "Team Deathmatch" 3 } //any and all maps marked for ffa will be team
+  { "Capture The Flag" 4 }
+  { "One Flag CTF" 5 }
+  { "Overload" 6 }
+  { "Harvester" 7 }
+  { "Elimination" 8 }
+  { "CTF Elimination" 9 }
+  { "Last Man Standing" 10 }
+  { "Double Domination" 11 }
+  { "Domination" 12 }
+  { "Possession" 13 }
+}
+
+// Single Player Maps
+maps	{
+
+// Column Info
+// Name - Name of the map, displayed under levelshot/cinematic
+// Mapname - the BSP to load of the map
+// Maximum amount of clients possible (for bots etc)
+// Bot?
+
+
+// NOTE: These map picks are not final.  They are temporary for testing the progress of the campaign.
+
+	// Mapname Mapfilename TeamMembers OpponentName ParTimeToBeatsPerGametype
+	/* Training maps */
+/*1 */	{ "Tutorial 1" "oad_tutorial1" "1" "skelebot" } /* New map!*/
+/*2 */	{ "Tutorial 2" "oad_tutorial2" "1" "ayumi" } /* New map!*/
+	/* FFA maps */
+/*1 */	{ "Aimless Fury" "oacmpdm6" "" "" } /* OACMP!*/
+/*2 */	{ "Plan 9 From O.S." "oacmpdm7" "" "" } /* OACMP!*/
+/*3 */	{ "Slime Facility" "slimefac" "" "" }
+	/* POS maps */
+/*1 */	{ "Galmevish Hub" "oad_galmevish" "" "" } /* New map!*/
+/*2 */	{ "Blitzkrieg Base" "oad_blitzkrieg" "" "" } /* New map!*/
+/*3 */	{ "Lunar Base" "oad_lunarbase" "" "" } /* New map!*/
+	/* LMS maps */
+/*1 */	{ "3013 Space" "oacmpdm4" "" "" } /* OACMP!*/
+/*2 */	{ "Projectile Vomit" "oa_pvomit" "" "" }
+/*3 */	{ "Athmospheric Shine" "oa_shine" "" "" }
+	/* TDM maps */
+/*1 */	{ "Floating Spire" "oa_koth2" "" "" }
+/*2 */	{ "Khaotic!" "kaos2" "" "" }
+/*3 */	{ "Repulsion Castle" "oa_koth1" "" "" }
+	/* Elim maps */
+/*1 */	{ "The Crypt" "oacmpdm1" "" "" } /* OACMP!*/
+/*2 */	{ "The Sanctuary" "oacmpdm9" "" "" } /* OACMP!*/
+/*3 */	{ "Subdivision" "oacmpdm8" "" "" } /* OACMP!*/
+	/* DOM maps */
+/*1 */	{ "Strange House" "oa_shouse" "" "" }
+/*2 */	{ "Sleek Grinder" "sleekgrinder" "" "" }
+/*3 */	{ "Under Working" "oad_underworks" "" "" } /* New map!*/
+	/* DD maps */
+/*1 */	{ "Obey 37" "ps37ctf2" "" "" }
+/*2 */	{ "Egyptian Trouble" "oacmpdm3" "" "" } /* OACMP!*/
+/*3 */	{ "The Other Side" "oacmpdm5" "" "" } /* OACMP!*/
+	/* Over maps */
+/*1 */	{ "Factory Collision" "oac_factory" "" "" } /* New map!*/
+/*2 */	{ "Outer Gates" "ctf_gate1" "" "" }
+/*3 */	{ "Fear Collision" "oa_spirit3" "" "" }
+	/* 1FCTF maps */
+/*1 */	{ "Lava Arena" "oac_lavaarena" "" "" } /* New map!*/
+/*2 */	{ "Bridge of Despair" "oac_bridge" "" "" } /* New map!*/
+/*3 */	{ "Facing Giants" "oacmpctf3" "" "" } /* OACMP!*/
+	/* CTF maps */
+/*1 */	{ "Sago's Castle" "oac_sagocastle" "" "" } /* New map!*/
+/*2 */	{ "Obey 9" "ps9ctf" "" "" }
+/*3 */	{ "Der Koberwascher" "pul1ctf" "" "" }
+	/* eCTF maps */
+/*1 */	{ "Training Grounds" "mlctf1beta" "" "" }
+/*2 */	{ "Inner Yard" "ctf_inyard" "" "" }
+/*3 */	{ "Foul Compromise" "ctf_compromise" "" "" }
+	/* Harv maps */
+/*1 */	{ "Uphill Battle" "oacmpctf1" "" "" } /* OACMP!*/
+/*2 */	{ "Turtles Forever!" "oacmpctf2" "" "" } /* OACMP!*/
+/*3 */	{ "Thor's Valhalla" "oa_Thor" "" "" }
+	/* 1on1 maps */
+/*1 */	{ "Trial By Error" "oa_rpg3dm2" "" "" }
+/*2 */	{ "Five Steps Ahead" "pul1duel-oa" "" "" }
+/*3 */	{ "The Space Spire" "oad_spacespire" "" "" } /* New map!*/
+	/* 1on1B maps */
+/*1 */	{ "Suicidal!" "oad_suicizer" "" "" } /* New map!*/
+}
